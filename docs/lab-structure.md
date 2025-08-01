@@ -40,3 +40,19 @@ A small prototype Streamlit application is included to showcase the inference pr
   * **Chatbot-like Interaction:** The application simulates a chatbot interaction where user input triggers feature retrieval and model inference.
   * **Inference Display:** The application displays the model's prediction or output based on the retrieved features.
   * **Dependency Management:** A `requirements.txt` file listing all necessary Python packages.
+
+
+
+## Items Checklist
+
+The following is a checklist of required items for each lab, moving from raw data to model inference:
+
+| Item Type                     | Description                                                             | Responsibility | Status        |
+| :---------------------------- | :---------------------------------------------------------------------- | :------------- | :------------ |
+| **Raw Data Source**           | Sample dataset(s) specific to the domain.                               | Person         | To be created |
+| **Feast Feature Definitions** | `feature_store.yaml`, `definitions.py` with entities and feature views. | Person         | In progress   |
+| **Model Code (Optional)**     | Simple ML model demonstrating feature consumption.                      | Person         | To be created |
+| **Streamlit App**             | `app.py` for inference demonstration.                                   | Person         | To be created |
+| **requirements.txt**          | List of all Python dependencies.                                        | Person         | To be created |
+| **Lab README**                | Detailed instructions for setting up and running the lab.               | Person         | To be created |
+
